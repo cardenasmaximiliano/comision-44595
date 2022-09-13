@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <header> <!---->
+        <div>
+            <a href="./index.html" target="_blank"><img src="./assets/img/nike.png" alt=""></a>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="">inicio</a></li>
+                <li><a href="./pages/lista.html">lista</a></li>
+                <li><a href="https://www.facebook.com/">facebook</a></li>
+                <li><a href="#final">Enlace interno</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="" method="post" enctype="">
+            <fieldset>
+                <legend>Datos personales</legend>
+                <label for="nombre">
+                    <span>¿Como te llamas?</span>
+                    <input type="text" id="nombre" placeholder="Escribi aca tu nombre">
+                </label>
+                <label for="email">
+                    <p>¿Como es tu mail?</p>
+                    <input type="email" id="email" placeholder="Escribi tu e-mail">
+                </label>
+                <label for="contra">
+                    <span>Contraseña:</span>
+                    <input type="password" id="contra" placeholder="contraseña">
+                </label>
+                
+            </fieldset>
+            <fieldset>
+                <legend>Sexo</legend>
+                <label for="hombre">Hombre</label>
+                <input type="radio" id="hombre" name="sexo" value="hombre">
+                <label for="mujer">mujer</label>
+                <input type="radio" id="mujer" name="sexo" value="mujer">
+                <label for="Indefinido">Indefinido</label>
+                <input type="radio" id="indefinido" name="sexo" value="indefinido">
+
+                <label for="acepta">acepta terminos y condiciones</label>
+                <input type="checkbox" id="acepta" name="acepto" value="1">
+            </fieldset>
+
+            <input type="submit">
+        </form>
+    </main>
+</body>
+</html>
