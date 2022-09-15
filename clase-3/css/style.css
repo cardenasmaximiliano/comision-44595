@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@100;500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/** comentario en css
+h2{
+    color: green;
+}*/
+/**
+    font-family: 'Poppins', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+*/
+div p{
+    color: red;
+}
+h2{
+    color: green;
+}
+
+/* cuando quiero llamar una class**/
+#tamanio-id{
+    font-size: 20px;
+}
+.parrafoPrincipal{
+    color: lightblue;
+    font-size: 80px !important; /**no se debe usar**/
+}
+.tamanio{
+    font-size: 70px;
+}
+article{
+    background-color: bisque;
+}
+.article-background{
+    background-color: coral;
+    background-image: url("../img/nike.png");
+    background-repeat: repeat-x;
+}
+article h2{
+    font-style: italic;
+    font-weight:bolder;
+    font-size: 40px;
+    /*propiedades de textos**/
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+article div p{
+    color: rgba(220, 110, 110, 0.919);
+    font-size: 30px;
+    text-indent: 20px;
+    letter-spacing:5px;
+    line-height: 2;
+    word-spacing: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.articulo-3 p{
+    color: rgb(24, 242, 16);
+    font-size: 20px;
+}
+
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration:none;
+}
+
+.background-img{
+    width: 100%;
+    height: 500px;
+    background-image: url("../img/background.jpg") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
