@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+header, footer{
+    background-color: lightgray;
+}
+.navBar{
+    background-color: rgba(0, 0, 0, 0.324);
+}
+.navBar li{
+    list-style: none;
+}
+.navBar li a{
+    text-decoration: none;
+    color: white;
+}
+
+main{
+    background-color: bisque;
+}
+.banner{
+    background-image: url("../assets/img/background.jpg");
+    width: 100%;
+    height: 400px;
+}
+
+.cardFirst{
+    background-color: lightblue;
+}
+.cardSecond{
+    background-color: antiquewhite;
+}
+
+
+
+
+
+
+
+
+
+
+
+
