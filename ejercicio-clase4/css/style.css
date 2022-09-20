@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 2rem;
+    font-size: 2rem;
+    font-family: sans-serif;
+    background-color: #000000;
+  }
+  
+  h1 {
+    color: #ffffff;
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  div {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.261);
+    border-radius: 5px;
+  }
+  
+  .static,
+  .relative,
+  .absolute,
+  .fixed,
+  .sticky {
+    padding: 1rem;
+  }
+  
+  .parent {
+    background-color: rgb(0, 0, 0);
+  }
+  
+  .static {
+    background-color: lightcoral;
+  }
+  
+  .relative {
+    background-color: lightcyan;
+  }
+  
+  .absolute {
+    background-color: lightgoldenrodyellow;
+  }
+  
+  .fixed {
+    background-color: lightsalmon;
+  }
+  
+  .sticky {
+    background-color: lightpink;
+  }
+  
+  
+  /* CSS Position */
+  
+  .static {
+      position: static;
+  }
+  
+  .relative {
+      position: relative;
+      top: 20px;
+      right: 10px;
+      bottom: ;
+      left: ;
+  }
+  
+  .parent {
+    
+  }
+  
+  .absolute {
+    /*
+    position: absolute;
+    */
+  }
+  
+  .fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  .sticky {
+    position: sticky;
+    top: 20px;
+  }
