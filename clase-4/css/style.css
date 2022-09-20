@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    background-color: lightblue;
+    font-size: 30px;
+    /*padding: 20px;  declaracion general**/
+    /** top right bottom left
+    padding: 10px 20px 5px 10px; **/
+    /* declaracion basica
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    */
+    text-align: center;
+    padding: 20px 0;
+    /*
+    border: 10px solid red; manera abreviada*/
+    border-width: 10px;
+    border-style: double;
+    border-color: rgb(189, 230, 173);
+
+}
+
+.cuadrado{
+    width: 200px;
+    height: 200px;
+    background-color: bisque;
+    border: 1px solid bisque;
+    margin: 20px;
+    border-radius: 10% 25% 50% 5%;
+    -webkit-box-shadow: -34px 19px 41px -13px rgba(66, 68, 90, 1);
+-moz-box-shadow: -34px 19px 41px -13px rgba(66, 68, 90, 1);
+box-shadow: -34px 19px 41px -13px rgba(66, 68, 90, 1);
+}
+
+.navBar li{
+    display:inline;
+    
+}
