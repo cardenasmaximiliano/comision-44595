@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+
+
+header{
+    background-color: beige;
+    margin-bottom: 20px;
+}
+.navBar{
+    display: flex;
+    font-size: 40px;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+.navBar li{
+    list-style: none;
+}
+.navBar li a{
+    text-decoration: none;
+    color: black;
+}
+.container{
+    display: flex;
+    height: 600px;
+    background-color: cadetblue;
+    /*
+    flex-direction: row;
+    flex-wrap: wrap;*/
+    flex-flow: row wrap ;
+    /*
+    justify = movimiento horizontal eje X
+    align= movimiento va a ser vertical eje Y
+    */
+    justify-content: center;
+    align-items: center;
+    /*
+    gap: 20px 40px; row column**/
+    column-gap: 40px;
+    
+    
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.box1 {
+    background-color: lightblue;
+    order: 7;
+    flex-grow: 1;
+
+
+}
+.box2 {
+    background-color: rgb(184, 230, 173);
+    order: 4;
+    flex-grow: 2;
+    align-self: flex-start;
+}
+.box3 {
+    background-color: rgb(194, 173, 230);
+    order: 3;
+}
+.box4 {
+    background-color: rgb(230, 186, 173);
+    order:2 ;
+    align-self: flex-end;
+}
+.box5 {
+    background-color: rgb(230, 173, 225);
+    order:5 ;
+}
+.box6 {
+    background-color: rgb(230, 173, 179);
+    order:6 ;
+    align-self: flex-end;
+}
+
+.box7{
+    background-color: rgb(224, 230, 173);
+    order: 1;
+}
+
