@@ -1,0 +1,59 @@
+.shadow{
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+    border-radius: 50%;
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: rgb(34,79,195);
+background: linear-gradient(0deg, rgba(34,79,195,1) 0%, rgba(51,253,45,0.8393558106836485) 100%);
+}
+.circle:hover{
+    /*
+    transform: translate(-20px, 80px);*/
+    transform: scale(0.2);
+}
+
+.cuadrado{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+}
+.cuadrado:hover{
+    transform: skew(30deg);
+}
+
+.rectangulo{
+    width: 200px;
+    height: 300px;
+    background-color: cadetblue;
+
+}
+.rectangulo:hover{
+    transform: rotate(20deg);
+}
+
+.efecto{
+    margin-top: 30px;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    perspective: 200px;
+}
+.d3{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 127, 80, 0.676);
+    transform-style: preserve-3d;
+    border: 2px solid coral ;
+    cursor: pointer;
+}
+
+.d3:hover{
+    transform: rotateX(25deg);
+}

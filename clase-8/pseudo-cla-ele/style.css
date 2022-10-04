@@ -1,0 +1,75 @@
+/**pseudoclase**/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color: red;
+}
+
+a:visited{
+    color: green;
+}
+
+.navBar li a:hover{
+    color: violet;
+}
+
+.container p:first-child{
+    color:violet;
+}
+.container p:nth-child(3){
+    color: salmon;
+    font-size: 40px;
+    background-color: lightblue;
+}
+.container p:last-child{
+    color: blue;
+}
+
+input:focus{
+    background-color: lightblue;
+}
+.container-2 {
+    margin: 20px;
+}
+.container-2 p:not(.jaime){
+    color: aqua;
+}
+.container-3{
+    margin: 30px;
+}
+.container-3 p::after{
+    content: " hola";
+    color: brown;
+    font-size: 30px;
+}
+.container-3 p::before{
+    content: "soy un before ";
+    color: blue;
+}
+
+
+h1::first-letter{
+    color: red;
+    font-size: 50px;
+}
+
+.line::first-line{
+    color: lightblue;
+}
+
+.container-3 input::placeholder{
+    color: red;
+    background-color: lightcoral;
+}
+
+
+
+
