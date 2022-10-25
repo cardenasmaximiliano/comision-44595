@@ -1,0 +1,30 @@
+header{
+    background-color: $background-Principal;
+    @include props-flex(row,flex-end,center);
+    h1{
+        background-color: rgba(0, 255, 255, 0.594);
+        font-size: 40px;
+        color: $color-texto-primario;
+    }
+    h2{
+        font-size: 40px;
+        color: $color-texto-primario;
+    }
+    nav{
+        background-color: azure;
+    }
+}
+.navBar{
+    @include props-flex(column,center,flex-end);
+    li{
+        list-style: none;
+        .a{
+            text-decoration: none;
+            color: black;
+            font-size: 30px;
+            &:hover{
+                color: red;
+            }
+        }
+    }
+}

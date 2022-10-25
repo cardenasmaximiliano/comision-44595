@@ -1,0 +1,4 @@
+.clase-index{
+    @extend .cards-style;
+    @include medidas (100%,500px,none,2px)
+}
