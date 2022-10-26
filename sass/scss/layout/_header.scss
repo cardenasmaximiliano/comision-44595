@@ -1,0 +1,30 @@
+header{
+    background-color: $background-principal;
+    background-image: url("../../assets/");
+    @include style-color(red,white,10px 10px 5px 0px rgba(0,0,0,0.75));
+    h1{
+        color:lightblue ;
+        font-size: (155px)/2;
+    }
+    h2{
+        color: beige;
+        font-size: 20px;
+    }
+    nav{
+        background-color: $background-secundario;
+    }
+}
+.navBar{
+    @include props-flex(row,center,flex-end);
+    li{
+        list-style: none;
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+            &:hover{
+                color: green;
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+.footer{
+    @include props-flex(column,space-evenly,center);
+    width: 100%;
+    background-color: lightgoldenrodyellow;
+    flex-wrap: wrap;
+}
+.first-container-footer{
+    @include props-flex (row, space-evenly,none);
+    width: 100%;
+    gap: 30px;
+    flex-wrap: wrap;
+    height: auto;
+    .div1{
+        @include props-flex (row, center,none);
+   
+        width: 1em;
+    }
+    .div3{
+        @include props-flex (column, center,center);
+
+        width: 1em;
+       
+    }
+    .div4{
+        @include props-flex (column, center,center);
+    }
+}

@@ -1,0 +1,8 @@
+@media (max-width:568px){
+    .container{
+        @include grid(1fr 1fr 1fr, repeat(2,1fr));
+        grid-template-areas: 
+        "header header header"
+        ;
+    }
+}

@@ -1,0 +1,16 @@
+main{
+    background-color: black;
+    @include props-flex(column,flex-start,center);
+}
+
+.section-1{
+    background-color: lightcyan;
+    color: black;
+    font-size: 20px;
+    @include medidas(20px, 30px, 2px, 5px)
+}
+
+.section-2{
+    @extend .section-1;
+    font-weight: bold;
+}
